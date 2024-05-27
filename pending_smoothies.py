@@ -2,7 +2,7 @@ import streamlit as st
 from snowflake.snowpark.functions import col, when_matched
 
 # Write directly to the app
-st.title("🍏🍇🍉 Pending Smoothie Orders 🍏🍇🍉")
+st.title("🍏🍇🍉 Pending Smoothie Orders ")
 st.write("Here are the pending smoothie orders:")
 
 # Get active Snowflake session
