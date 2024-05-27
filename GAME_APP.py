@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from snowflake.connector import connect
-import plotly.express as px
 
 # Snowflake connection parameters
 snowflake_conn_params = {
